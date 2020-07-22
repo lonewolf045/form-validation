@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+#text-area {
+  display : block;
+}
+
+#textarea {
+  margin: 5px; 
+}
+
+#text-label {
+  margin:5px;
+}
+
+main {
+  margin: 5% auto ;
+  background: rgba(66,39,90, 0.8);
+  padding: 1.5%;
+  border: none;
+  border-radius: 4px;
+  width: 720px;
+}
+
+@media (min-width: 768px) {
+  main {
+      max-width: 720px;
+  }
+}
+
+@media (min-width: 576px) {
+  main {
+      max-width: 540px;
+  }
+}
+
+header {
+  text-align: center;
+}
+
+.survey {
+  margin : 2.5% auto;
+}
+
+#survey-form {
+  padding: auto 2.5%;
+}
+
+body {
+  background-image : linear-gradient( 115deg, rgba(	204, 43, 86, 0.8), rgba(117,58,136, 0.7) );
+  color: #f3f3f3;
+  background-position: center;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.fill {
+  border-radius: 0.25rem;
+  border: none;
+  padding: 2px;
+  width: 99%;
+  height: 2rem;
+  margin: 2.5% 0%;
+  font-size: 1.125rem;
+  font-family: 'Dosis', sans-serif;
+}
+
+#text {
+  margin: 0 3.5px;
+}
+
+.labels {
+  font-size: 1.25rem;
+  margin-top: 2.5%;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+#subbutton {
+  border-radius: 0.25rem;
+  border: none;
+  width: 30%;
+  text-align:center;
+  height: 2rem;
+  margin: 2.5% auto;
+  font-size: 1.25rem;
+  padding: 2px;
+}
+
+#submit {
+  font-size: 1.25rem;
+  border-radius: 0.25rem;
+  border: none;
+  padding: 2.5%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#description {
+  font-style: italic;
+}
+
+.error {
+    width  : 100%;
+    padding: 0;
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+  
+    box-sizing: border-box;
+}
+
+.error.active {
+    padding: 30px;
+}
+
+.fill:active {
+    margin-bottom: 0px;
+}
